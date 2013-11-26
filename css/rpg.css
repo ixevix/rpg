@@ -1,0 +1,10 @@
+.ui-content {
+text-align: center;
+}
+.ui-navbar li .ui-btn{
+height: 20px;
+font-size: 1em;
+}
+.character-container{
+float: left;
+}
