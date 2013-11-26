@@ -30,3 +30,21 @@ var charClasses = {
 		}
 	}
 }
+charClasses[lang[7][langId]] = {
+	subclasses:[lang[19][langId], lang[24][langId]]
+}
+charClasses[lang[8][langId]] = {
+	subclasses:[lang[19][langId], lang[20][langId]]
+}
+charClasses[lang[9][langId]] = {
+	subclasses:[lang[21][langId]]
+}
+charClasses[lang[10][langId]] = {
+	subclasses:[lang[22][langId]]
+}
+charClasses[lang[11][langId]] = {
+	subclasses:[lang[23][langId]]
+}
+charClasses[lang[12][langId]] = {
+	subclasses:[lang[23], lang[22][langId]]
+}
