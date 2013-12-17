@@ -1,4 +1,6 @@
 lang = [];
+langClass = [];
+langSubClass = [];
 langId = 0;
 lang[0] = ["RPG v0.01"];
 lang[1] = ["&copy; ixevix 2013"];
