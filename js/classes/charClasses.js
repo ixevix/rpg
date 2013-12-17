@@ -1,5 +1,7 @@
 var charClasses = {
-	classes: [lang[7][langId], lang[8][langId], lang[9][langId], lang[10][langId], lang[11][langId], lang[12][langId]],
+
+	classes: [langClass[0], langClass[1], langClass[2], langClass[3], langClass[4], langClass[5]],
+
 	renderSelects:function(){
 		for (var i=1; i<=game.partySize; i++) {
 			var ui_class;
@@ -23,6 +25,7 @@ var charClasses = {
 		}
 		this.populateSelects();
 	},
+
 	populateSelects:function(){
 	$('.character-select').append('<option value="">'+lang[14][langId]+'</option>')
 		for (var i = 0; i < charClasses.classes.length; i++ ) {
@@ -30,21 +33,21 @@ var charClasses = {
 		}
 	}
 }
-charClasses[lang[7][langId]] = {
-	subclasses:[lang[19][langId], lang[24][langId]]
+charClasses[langClass[0]] = {
+	subclasses:[langSubClass[0], langSubClass[5]]
 }
 charClasses[lang[8][langId]] = {
-	subclasses:[lang[19][langId], lang[20][langId]]
+	subclasses:[langSubClass[0], langSubClass[1]]
 }
 charClasses[lang[9][langId]] = {
-	subclasses:[lang[21][langId]]
+	subclasses:[langSubClass[2]]
 }
 charClasses[lang[10][langId]] = {
-	subclasses:[lang[22][langId]]
+	subclasses:[langSubClass[3]]
 }
 charClasses[lang[11][langId]] = {
-	subclasses:[lang[23][langId]]
+	subclasses:[langSubClass[4]]
 }
 charClasses[lang[12][langId]] = {
-	subclasses:[lang[23], lang[22][langId]]
+	subclasses:[langSubClass[4], langSubClass[3]]
 }
