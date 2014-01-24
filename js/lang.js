@@ -4,7 +4,7 @@ langSubClass = [];
 langDamage = [];
 langResource = [];
 langId = 0; // 0 = english
-lang[0] = ["RPG v0.02"];
+lang[0] = ["RPG v0.0.2"];
 lang[1] = ["&copy; ixevix 2013-2014"];
 lang[2] = ["Menu"];
 lang[3] = ["Start game"];
