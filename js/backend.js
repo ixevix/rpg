@@ -5,6 +5,6 @@ function translate() {
 }
 
 $(document).ready(function(){
-	charClasses.renderSelects();
+	character.init();
 	translate();
 });
