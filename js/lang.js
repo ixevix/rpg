@@ -4,8 +4,8 @@ langSubClass = [];
 langDamage = [];
 langResource = [];
 langId = 0; // 0 = english
-lang[0] = ["RPG v0.01"];
-lang[1] = ["&copy; ixevix 2013"];
+lang[0] = ["RPG v0.02"];
+lang[1] = ["&copy; ixevix 2013-2014"];
 lang[2] = ["Menu"];
 lang[3] = ["Start game"];
 lang[4] = ["Continue game"];
@@ -46,6 +46,17 @@ lang[33] = ["Arrows"];
 lang[34] = ["Mana"];
 lang[35] = ["Song points"];
 lang[36] = ["Spirit"];
+
+lang[37] = ["HP"];
+lang[38] = ["Base resistances"];
+lang[39] = ["Level"];
+lang[40] = ["Experience"];
+lang[41] = ["This ferocious fighter builds up rage to perform a special attack. Has stun and can tank well."];
+lang[42] = ["Hides in the shadows and assasinates his targets. Has higher than average crit chance."];
+lang[43] = ["Specializes in bows and attacks the enemies from afar. Can hit multiple targets with his bow."];
+lang[44] = ["Your average spellcaster that has single and multi target spells. Can cast the invisibility spell."];
+lang[45] = ["The charming bard plays songs on his lute that aid in the midst of battle."];
+lang[46] = ["The pious priest is a healer and is specialized in combating the undead. Can raise the dead."];
 // We want some names for variables but don't translate them
 langClass[0] = lang[7][0];
 langClass[1] = lang[8][0];
